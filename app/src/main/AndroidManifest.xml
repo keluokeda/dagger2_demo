@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RuntimeInjectActivity"></activity>
+        <activity android:name=".BuilderActivity"></activity>
+        <activity android:name=".RuntimeInjectActivity" />
         <activity android:name=".IntoMapActivity" />
         <activity android:name=".IntoSetActivity" />
         <activity android:name=".WeaponActivity" />
