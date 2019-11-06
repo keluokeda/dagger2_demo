@@ -56,5 +56,9 @@ class MainActivity : AppCompatActivity() {
         runtime_inject.setOnClickListener {
             startActivity(Intent(this, RuntimeInjectActivity::class.java))
         }
+
+        sub_component.setOnClickListener {
+            startActivity(Intent(this, SubComponentActivity::class.java))
+        }
     }
 }
