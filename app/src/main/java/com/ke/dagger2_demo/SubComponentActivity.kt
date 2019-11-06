@@ -90,6 +90,7 @@ interface MemberComponent {
     fun member(): Member
 
 
+    //返回一个SubComponent 
     fun createSub(): MemberBComponent
 
 }

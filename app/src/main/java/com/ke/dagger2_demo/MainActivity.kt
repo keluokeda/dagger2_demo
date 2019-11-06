@@ -60,5 +60,9 @@ class MainActivity : AppCompatActivity() {
         sub_component.setOnClickListener {
             startActivity(Intent(this, SubComponentActivity::class.java))
         }
+
+        sub_component_builder.setOnClickListener {
+            startActivity(Intent(this, SubComponentBuilderActivity::class.java))
+        }
     }
 }
